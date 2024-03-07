@@ -204,3 +204,38 @@ footer {
     justify-content: center;
     font-size: 1.75rem;
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        padding-left: 0;
+    }
+
+    .header {
+        position: relative;
+        height: auto;
+        width: 100%;
+    }
+
+    .navbar {
+        margin-top: 0;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    #about, #experience, #education, #skills {
+        height: auto;
+    }
+
+    #skills ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #skills ul li {
+        width: auto;
+        margin: 10px;
+    }
+}
