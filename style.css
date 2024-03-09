@@ -243,7 +243,7 @@ footer {
 
     #skills ul {
         font-size: 1.5rem;
-        width: 40vh;
+        width: 100%;
         margin-bottom: 8%;
     }
     
@@ -297,21 +297,24 @@ footer {
 
     #experience h5, #education h5{
         font-size: 1.1rem;
-        margin-bottom: 2%;
+        margin-bottom: 5%;
     }
 
     #experience p{
         font-size: 1rem;
-        margin-bottom: 10%;
+        margin-top: 10%;
+        margin-bottom: 30%;
+        
     }
 
     #education p {
         font-size: 1rem;
-        margin-bottom: 10%;
+        margin-top: 10%;
     }
 
     #education .end {
-        margin-bottom: 10%;
+        margin-top: 10%;
+        margin-bottom: 30%;
     }
 
     footer {
