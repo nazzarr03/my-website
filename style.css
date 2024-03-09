@@ -232,6 +232,10 @@ footer {
         display: inline-block;
         margin-right: 10px;
     }
+
+    .navbar ul li:first-child {
+        margin-left: 10px;
+    }
     
     .profile_img img {
         display: none;
@@ -239,7 +243,7 @@ footer {
 
     #skills ul {
         font-size: 1.5rem;
-        width: 50vh;
+        width: 40vh;
         margin-bottom: 8%;
     }
     
@@ -277,11 +281,12 @@ footer {
     #experience h1, #education h1, #skills h1{
         font-size: 2rem;
         margin-bottom: 10%;
+        margin-top: 10%;
         text-align: center;
     }
 
     #experience h3, #education h3{
-        font-size: 1,1rem;
+        font-size: 1rem;
         margin-bottom: 2%;
     }
 
@@ -302,7 +307,11 @@ footer {
 
     #education p {
         font-size: 1rem;
-        margin-bottom: 5%;
+        margin-bottom: 10%;
+    }
+
+    #education .end {
+        margin-bottom: 10%;
     }
 
     footer {
