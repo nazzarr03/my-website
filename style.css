@@ -268,9 +268,14 @@ footer {
         font-size: 1rem;
     }
 
+    .contact ul li a{
+        font-size: 1.25rem;
+        padding: 5px;
+    }
+
     #experience h1, #education h1, #skills h1{
         font-size: 2rem;
-        margin-bottom: 5%;
+        margin-bottom: 10%;
     }
 
     #experience h3, #education h3{
